@@ -28,12 +28,17 @@ com.example.similarproducts
 ├── application/ → Business logic & use cases
 │ └── SimilarProductsService.java
 │ └── exception/
+
 ├── config/ → WebClient + property configuration
+
 ├── controller/ → REST endpoints exposed
+
 ├── domain/ → Immutable domain models (records)
+
 ├── infrastructure/
 │ ├── client/ → External HTTP adapters (Catalog client)
 │ └── http/ → Global exception handling
+
 └── SimilarProductsApplication.java → Application entry point
 
 
