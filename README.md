@@ -71,6 +71,8 @@ json:
   { "id": "3", "name": "Blazer", "price": 29.99, "availability": false },
   { "id": "4", "name": "Boots", "price": 39.99, "availability": true }
 ]
+
+
 4. Errors are handled gracefully:
     Product not found → 404 Not Found
     External system error → 502 Bad Gateway
