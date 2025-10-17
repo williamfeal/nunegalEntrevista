@@ -60,7 +60,7 @@ com.example.similarproducts
     - `/product/{id}` for each returned ID
 3. The service aggregates results and responds with:
 
-```json
+json:
 [
   { "id": "2", "name": "Dress", "price": 19.99, "availability": true },
   { "id": "3", "name": "Blazer", "price": 29.99, "availability": false },
